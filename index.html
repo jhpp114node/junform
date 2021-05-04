@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Exercises</title>
+    <!-- CSS LINK, it goes in here -->
+  </head>
+  <body>
+    <form action="#">
+      <p>Jun's Form</p>
+      <!-- First name -->
+      <div>
+        <label for="firstname">
+          First Name:
+          <input id="firstname" type="text" placeholder="first name" required />
+        </label>
+      </div>
+      <!-- Last name -->
+      <div>
+        <label for="lastname">
+          Last Name:
+          <input id="lastname" type="text" placeholder="Last name" required />
+        </label>
+      </div>
+      <!-- password -->
+      <div>
+        <label for="password">
+          Password:
+          <input
+            id="password"
+            type="password"
+            placeholder="At least 8 characters"
+            required
+            minlength="8"
+          />
+        </label>
+      </div>
+      <!-- Email -->
+      <div>
+        <label for="email"
+          >Eamil:
+          <input id="email" type="email" placeholder="email" required />
+        </label>
+      </div>
+      <!-- DOB -->
+      <div>
+        <label for="dob"
+          >Date of Birth:
+          <input id="dob" type="date" placeholder="Date of Birth" required />
+        </label>
+      </div>
+      <div>
+        <input type="submit" value="Send User Info" />
+      </div>
+      <p>See the change?</p>
+    </form>
+  </body>
+</html>
